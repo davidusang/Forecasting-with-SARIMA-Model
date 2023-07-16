@@ -48,11 +48,17 @@ The script provides the following functionality:
 Execute the code step by step or run the entire script:
 
     The script uses the quantmod package to fetch historical data for the AUD/JPY exchange rate from Yahoo Finance.
+    
     The data is preprocessed, and missing values are handled using the na.locf() function.
+    
     Descriptive analysis is performed on the time series data, including decomposition into trend, seasonal, and random components.
+    
     The data is prepared, and an ARIMA model is fitted to the data using the auto.arima() function.
+    
     Forecasts are generated using the forecast() function.
+    
     The model estimates and forecasted values are visualized using ggplot2.
+    
     A histogram of the residuals is plotted to assess the model fit.
 
 The script produces informative plots and outputs to help analyze and understand the time series data and its forecast.
